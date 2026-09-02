@@ -26,7 +26,7 @@ namespace PrimeiroProjeto
 
         private void lblEmail_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void pnlEntrar_Paint(object sender, PaintEventArgs e)
@@ -38,6 +38,44 @@ namespace PrimeiroProjeto
         {
             pnlEntrar.Left = (this.ClientSize.Width - pnlEntrar.Width) / 2;
             pnlEntrar.Top = (this.ClientSize.Height - pnlEntrar.Height) / 2;
+        }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+            string email = txtEmail.Text.Trim();
+
+            string senha = txtSenha.Text;
+
+            if (email == "" || senha == "")
+            {
+                MessageBox.Show(
+                    "Digite o email e a senha",
+                    "Atenção", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+
+                return;
+            }
+
+
+            if (email.ToLower() == EmailCadastado
+                && senha == SenhaCadastrada)
+            {
+                MessageBox.Show(
+                    "Login realizado com sucesso!",
+                    "Bem-vindo", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+            }
+
+
+            else
+            {
+                MessageBox.Show(
+                    "Email ou senha incorretos.",
+                    "Erro", MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+                txtSenha.Clear();
+                txtSenha.Focus();
+            }
         }
     }
 }
