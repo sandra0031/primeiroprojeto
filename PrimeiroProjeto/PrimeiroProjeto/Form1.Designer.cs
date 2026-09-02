@@ -34,6 +34,8 @@
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.btnEntrar = new System.Windows.Forms.Button();
             this.pnlEntrar = new System.Windows.Forms.Panel();
+            this.lnkCadastrar = new System.Windows.Forms.LinkLabel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlEntrar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +53,7 @@
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(40, 75);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(2);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(249, 20);
             this.txtEmail.TabIndex = 1;
@@ -70,7 +72,7 @@
             // txtSenha
             // 
             this.txtSenha.Location = new System.Drawing.Point(40, 151);
-            this.txtSenha.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSenha.Margin = new System.Windows.Forms.Padding(2);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(249, 20);
             this.txtSenha.TabIndex = 3;
@@ -80,7 +82,7 @@
             // btnEntrar
             // 
             this.btnEntrar.Location = new System.Drawing.Point(109, 201);
-            this.btnEntrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEntrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(108, 26);
             this.btnEntrar.TabIndex = 4;
@@ -90,17 +92,39 @@
             // 
             // pnlEntrar
             // 
+            this.pnlEntrar.Controls.Add(this.flowLayoutPanel1);
+            this.pnlEntrar.Controls.Add(this.lnkCadastrar);
             this.pnlEntrar.Controls.Add(this.lblEmail);
             this.pnlEntrar.Controls.Add(this.btnEntrar);
             this.pnlEntrar.Controls.Add(this.txtEmail);
             this.pnlEntrar.Controls.Add(this.txtSenha);
             this.pnlEntrar.Controls.Add(this.lblSenha);
             this.pnlEntrar.Location = new System.Drawing.Point(140, 23);
-            this.pnlEntrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlEntrar.Margin = new System.Windows.Forms.Padding(2);
             this.pnlEntrar.Name = "pnlEntrar";
             this.pnlEntrar.Size = new System.Drawing.Size(320, 319);
             this.pnlEntrar.TabIndex = 5;
             this.pnlEntrar.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlEntrar_Paint);
+            // 
+            // lnkCadastrar
+            // 
+            this.lnkCadastrar.AutoSize = true;
+            this.lnkCadastrar.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.lnkCadastrar.LinkColor = System.Drawing.Color.Black;
+            this.lnkCadastrar.Location = new System.Drawing.Point(147, 280);
+            this.lnkCadastrar.Name = "lnkCadastrar";
+            this.lnkCadastrar.Size = new System.Drawing.Size(52, 13);
+            this.lnkCadastrar.TabIndex = 5;
+            this.lnkCadastrar.TabStop = true;
+            this.lnkCadastrar.Text = "Cadastrar";
+            this.lnkCadastrar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkCadastrar_LinkClicked);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(150, 280);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(8, 8);
+            this.flowLayoutPanel1.TabIndex = 6;
             // 
             // Form1
             // 
@@ -108,7 +132,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.pnlEntrar);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(480, 358);
             this.Name = "Form1";
             this.Text = "Entrar";
@@ -126,6 +150,8 @@
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Panel pnlEntrar;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.LinkLabel lnkCadastrar;
     }
 }
 
