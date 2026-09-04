@@ -15,7 +15,7 @@ namespace PrimeiroProjeto
     public partial class Form1 : Form
     {  
       public static string NomeCadastrado = "";
-      public static string EmailCadastado = "sandramalta@teste.com";
+      public static string EmailCadastrado = "sandramalta@teste.com";
       public static string SenhaCadastrada = "1234";
 
         public Form1()
@@ -58,13 +58,14 @@ namespace PrimeiroProjeto
             }
 
 
-            if (email.ToLower() == EmailCadastado
+            if (email.ToLower() == EmailCadastrado
                 && senha == SenhaCadastrada)
             {
-                MessageBox.Show(
-                    "Login realizado com sucesso!",
-                    "Bem-vindo", MessageBoxButtons.OK,
-                    MessageBoxIcon.Information);
+                frmPrincipal principal = new frmPrincipal();
+                principal.DefinirBoasVindas(NomeCadastrado);
+
+                principal.Show();
+                this.Hide();
             }
 
 

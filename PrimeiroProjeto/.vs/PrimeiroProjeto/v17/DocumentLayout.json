@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\db\\documents\\github\\primeiroprojeto\\primeiroprojeto\\primeiroprojeto\\form cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\form cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\db\\documents\\github\\primeiroprojeto\\primeiroprojeto\\primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\primeiroprojeto\\frmprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\frmprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\primeiroprojeto\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\primeiroprojeto\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\primeiroprojeto\\form cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\form cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\primeiroprojeto\\form cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,32 +46,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "frmPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\frmPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmPrincipal.Designer.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\frmPrincipal.Designer.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T23:49:07.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmPrincipal.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\frmPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T23:13:24.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmPrincipal.cs [Design]",
+              "RelativeToolTip": "PrimeiroProjeto\\frmPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T23:09:14.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form cadastro.cs",
               "DocumentMoniker": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form cadastro.cs",
               "RelativeDocumentMoniker": "PrimeiroProjeto\\Form cadastro.cs",
               "ToolTip": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form cadastro.cs",
               "RelativeToolTip": "PrimeiroProjeto\\Form cadastro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T00:26:47.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T00:26:47.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Form cadastro.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form cadastro.cs",
               "RelativeDocumentMoniker": "PrimeiroProjeto\\Form cadastro.cs",
               "ToolTip": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form cadastro.cs [Design]",
               "RelativeToolTip": "PrimeiroProjeto\\Form cadastro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:39:49.812Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-02T22:39:49.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
               "RelativeDocumentMoniker": "PrimeiroProjeto\\Form1.cs",
@@ -71,13 +116,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
               "RelativeDocumentMoniker": "PrimeiroProjeto\\Form1.cs",
               "ToolTip": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
               "RelativeToolTip": "PrimeiroProjeto\\Form1.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-26T23:17:15.654Z",
               "EditorCaption": ""

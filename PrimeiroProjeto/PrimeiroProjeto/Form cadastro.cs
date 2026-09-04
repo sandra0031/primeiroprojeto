@@ -20,21 +20,41 @@ namespace PrimeiroProjeto
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
             string nome = txtNome.Text.Trim();
-            string email= txtEmail.Text.Trim();
-            string senha= txtsenha.Text.Trim();
+            string email = txtEmail.Text.Trim();
+            string senha = txtsenha.Text.Trim();
             if (nome == "" || email == "" || senha == "")
 
-            {  MessageBox.Show(
+            {
+                MessageBox.Show(
                     "Preencha todos os campos.",
                     "Atencao",
                     MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning)
-                    return;
-,            
-
+                    MessageBoxIcon.Warning);
+                return;
             }
 
-
+            {
+                // salva os dados para o login
+                Form1.NomeCadastrado = nome;
+                Form1.EmailCadastrado = email.ToLower();
+                Form1.SenhaCadastrada = senha;
+                MessageBox.Show(
+                "Cadastro realizado!",
+                "Sucesso", MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
+                // Form1 so estava escondido,
+                // entao nao criamos um novo
+                this.Close();
+            }
         }
     }
 }
+
+
+
+
+
+
+
+
+
