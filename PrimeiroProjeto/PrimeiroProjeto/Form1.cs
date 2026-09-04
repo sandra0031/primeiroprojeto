@@ -13,9 +13,10 @@ using System.Windows.Forms;
 namespace PrimeiroProjeto
 {
     public partial class Form1 : Form
-    {
-        private const string EmailCadastado = "sandramalta@teste.com";
-        private const string SenhaCadastrada = "1234";
+    {  
+      public static string NomeCadastrado = "";
+      public static string EmailCadastado = "sandramalta@teste.com";
+      public static string SenhaCadastrada = "1234";
 
         public Form1()
         {

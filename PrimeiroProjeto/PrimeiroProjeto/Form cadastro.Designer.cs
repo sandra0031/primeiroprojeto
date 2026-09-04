@@ -31,11 +31,11 @@
             this.lblnome = new System.Windows.Forms.Label();
             this.lblemail = new System.Windows.Forms.Label();
             this.btnCadastro = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.txtsenha = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.btnCadastrar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtsenha = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.btnCadastro.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,8 +62,8 @@
             this.btnCadastro.Controls.Add(this.btnCadastrar);
             this.btnCadastro.Controls.Add(this.label1);
             this.btnCadastro.Controls.Add(this.txtsenha);
-            this.btnCadastro.Controls.Add(this.textBox2);
-            this.btnCadastro.Controls.Add(this.textBox1);
+            this.btnCadastro.Controls.Add(this.txtEmail);
+            this.btnCadastro.Controls.Add(this.txtNome);
             this.btnCadastro.Controls.Add(this.lblnome);
             this.btnCadastro.Controls.Add(this.lblemail);
             this.btnCadastro.Location = new System.Drawing.Point(105, 31);
@@ -71,26 +71,15 @@
             this.btnCadastro.Size = new System.Drawing.Size(603, 345);
             this.btnCadastro.TabIndex = 3;
             // 
-            // textBox1
+            // btnCadastrar
             // 
-            this.textBox1.Location = new System.Drawing.Point(29, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(240, 20);
-            this.textBox1.TabIndex = 3;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(29, 93);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(240, 20);
-            this.textBox2.TabIndex = 4;
-            // 
-            // txtsenha
-            // 
-            this.txtsenha.Location = new System.Drawing.Point(29, 158);
-            this.txtsenha.Name = "txtsenha";
-            this.txtsenha.Size = new System.Drawing.Size(240, 20);
-            this.txtsenha.TabIndex = 5;
+            this.btnCadastrar.Location = new System.Drawing.Point(111, 255);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadastrar.TabIndex = 7;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // label1
             // 
@@ -101,14 +90,26 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Senha";
             // 
-            // btnCadastrar
+            // txtsenha
             // 
-            this.btnCadastrar.Location = new System.Drawing.Point(111, 255);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(75, 23);
-            this.btnCadastrar.TabIndex = 7;
-            this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.txtsenha.Location = new System.Drawing.Point(29, 158);
+            this.txtsenha.Name = "txtsenha";
+            this.txtsenha.Size = new System.Drawing.Size(240, 20);
+            this.txtsenha.TabIndex = 5;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(29, 93);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(240, 20);
+            this.txtEmail.TabIndex = 4;
+            // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(29, 39);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(240, 20);
+            this.txtNome.TabIndex = 3;
             // 
             // frmCadastro
             // 
@@ -130,8 +131,8 @@
         private System.Windows.Forms.Label lblemail;
         private System.Windows.Forms.Panel btnCadastro;
         private System.Windows.Forms.TextBox txtsenha;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCadastrar;
     }

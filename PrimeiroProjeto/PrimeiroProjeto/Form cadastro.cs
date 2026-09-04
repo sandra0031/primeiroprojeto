@@ -16,5 +16,25 @@ namespace PrimeiroProjeto
         {
             InitializeComponent();
         }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            string nome = txtNome.Text.Trim();
+            string email= txtEmail.Text.Trim();
+            string senha= txtsenha.Text.Trim();
+            if (nome == "" || email == "" || senha == "")
+
+            {  MessageBox.Show(
+                    "Preencha todos os campos.",
+                    "Atencao",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning)
+                    return;
+,            
+
+            }
+
+
+        }
     }
 }
