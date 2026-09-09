@@ -27,5 +27,21 @@ namespace PrimeiroProjeto
         {
 
         }
+      
+
+        private void frmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            MessageBox.Show(
+"Preencha todos os campos.",
+"Atencao",
+MessageBoxButtons.OK,
+MessageBoxIcon.Warning);
+            return;
+        }
+
+        private void frmPrincipal_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

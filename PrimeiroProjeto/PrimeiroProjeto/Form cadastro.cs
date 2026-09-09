@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,22 +34,51 @@ namespace PrimeiroProjeto
                 return;
             }
 
+
+            try
             {
-                // salva os dados para o login
-                Form1.NomeCadastrado = nome;
-                Form1.EmailCadastrado = email.ToLower();
-                Form1.SenhaCadastrada = senha;
+                using (MySqlConnection conexao =
+                Conexao.Abrir())
+                {
+                    string sql =
+                    "INSERT INTO usuarios " +
+                    "(nome, email, senha) " +
+                    "VALUES (@nome, @email, " +
+                    "@senha)";
+                    MySqlCommand comando =
+                    new MySqlCommand(
+                    sql, conexao);
+                    comando.Parameters.AddWithValue(
+                    "@nome", nome);
+                    comando.Parameters.AddWithValue(
+                    "@email", email);
+                    comando.Parameters.AddWithValue(
+                    "@senha", senha);
+                    comando.ExecuteNonQuery();
+
+                }
                 MessageBox.Show(
                 "Cadastro realizado!",
                 "Sucesso", MessageBoxButtons.OK,
                 MessageBoxIcon.Information);
-                // Form1 so estava escondido,
-                // entao nao criamos um novo
                 this.Close();
+            }
+            
+            catch (MySqlException)
+            {
+                MessageBox.Show(
+                "Esse email ja esta" +
+                " cadastrado.",
+                "Atencao",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Warning);
             }
         }
     }
 }
+                
+    
+
 
 
 
