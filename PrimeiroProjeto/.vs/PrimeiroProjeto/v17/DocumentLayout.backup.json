@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\primeiroprojeto\\form cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\db\\documents\\github\\primeiroprojeto\\primeiroprojeto\\primeiroprojeto\\form cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\form cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,11 +23,11 @@
       "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\db\\documents\\github\\primeiroprojeto\\primeiroprojeto\\primeiroprojeto\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\primeiroprojeto\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\db\\documents\\github\\primeiroprojeto\\primeiroprojeto\\primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,8 +54,7 @@
               "RelativeToolTip": "PrimeiroProjeto\\frmPrincipal.Designer.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAMwCYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T23:49:07.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T23:49:07.506Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "PrimeiroProjeto\\frmPrincipal.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAcwC0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T23:13:24.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T23:13:24.45Z"
             },
             {
               "$type": "Document",
@@ -78,7 +76,7 @@
               "RelativeDocumentMoniker": "PrimeiroProjeto\\Form cadastro.cs",
               "ToolTip": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form cadastro.cs",
               "RelativeToolTip": "PrimeiroProjeto\\Form cadastro.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-04T00:26:47.894Z",
               "EditorCaption": ""
@@ -92,8 +90,7 @@
               "ToolTip": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form cadastro.cs [Design]",
               "RelativeToolTip": "PrimeiroProjeto\\Form cadastro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:39:49.812Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-02T22:39:49.812Z"
             },
             {
               "$type": "Document",
@@ -104,8 +101,7 @@
               "ToolTip": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmPrincipal.cs [Design]",
               "RelativeToolTip": "PrimeiroProjeto\\frmPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T23:09:14.858Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-04T23:09:14.858Z"
             },
             {
               "$type": "Document",
@@ -117,8 +113,7 @@
               "RelativeToolTip": "PrimeiroProjeto\\Conexao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T23:18:03.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-08T23:18:03.452Z"
             },
             {
               "$type": "Document",
@@ -129,8 +124,7 @@
               "ToolTip": "C:\\Users\\DB\\Documents\\GitHub\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs [Design]",
               "RelativeToolTip": "PrimeiroProjeto\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T22:42:56.793Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-08-26T22:42:56.793Z"
             },
             {
               "$type": "Document",
@@ -142,8 +136,7 @@
               "RelativeToolTip": "PrimeiroProjeto\\Form1.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAEMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T23:17:15.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-26T23:17:15.654Z"
             }
           ]
         }
